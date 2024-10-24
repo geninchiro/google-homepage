@@ -1,0 +1,37 @@
+#footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+  background-color: #F2F2F2;
+}
+
+#footer-content > div {
+  padding: 1.2rem;
+  border: 1px solid #DADCE0;
+}
+
+.footer-bot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.4rem;
+}
+
+.footer-bot > div {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-bot > div > a {
+  color: #746F6F;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-bot {
+    justify-content: space-between;
+  }
+}

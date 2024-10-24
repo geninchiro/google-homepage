@@ -1,0 +1,39 @@
+
+#header-content {
+  display: flex;
+  justify-content: end;
+  padding: 1.8rem;
+  gap: 1.2rem;
+}
+
+.header-navigations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  margin-right: auto;
+}
+
+
+.header-navigations li a {
+  color: black
+}
+
+.header-options {
+  width: 2rem;
+  aspect-ratio: 4/4;
+}
+
+.avatar {
+  width: 2rem;
+  aspect-ratio: 4/4;
+  border-radius: 999em;
+  background-image: url('../resources/profile.jpg');
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  .header-navigations {
+    margin-right: 0;
+  }
+}
